@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "aliment"
+version = "0.1.0"
+description = ""
+authors = ["Allison Braithwaite <alliroseb@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+graphene = "2.1.9"
+flask-graphql = "^2.0.1"
+openai = "^1.3.7"
+flask-cors = "^4.0.0"
+graphene-federation = "0.2.0"
+pydantic = "1.9"
+python-dotenv = "^1.0.0"
+graphene-pydantic = "^0.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
